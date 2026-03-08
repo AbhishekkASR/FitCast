@@ -1,7 +1,7 @@
 from fastapi import FastAPI, UploadFile, File
 import shutil
-from recommender import recommend
-from product_api import search_products
+from backend.recommender import recommend
+from backend.product_api import search_products
 
 app = FastAPI()
 

@@ -1,7 +1,7 @@
 import pickle
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
-from model_loader import extract_features
+from backend.model_loader import extract_features
 
 features, paths = pickle.load(open("embeddings/features.pkl","rb"))
 
